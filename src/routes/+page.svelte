@@ -3,6 +3,7 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
     import Base64Encode from './Base64Encode.svelte';
+	import ReverseString from './ReverseString.svelte';
 </script>
 
 <svelte:head>
@@ -29,6 +30,7 @@
 	<Counter />
 
 	<Base64Encode />
+	<ReverseString />
 </section>
 
 <style>
